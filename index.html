@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Tap <span class="start" style="color: orange;">HERE!</span></h1>
+  <h2 id="try-again" class="invisible">Refresh and try again!</h2>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+    <h3 id="instructions">🧠📲 Unsaon pag duwa? 📲🧠</h3>
+<p>1️⃣ <strong>Tap ang word nga</strong> <span class="start" style="color: orange;">"HERE"</span> aron magsugod! 📲 <em>→ Tap the word "HERE" to start!</em></p> 
+<p>2️⃣ <strong>Tan-awa ang color nga mu-flash.</strong> 👀✨ <em>→ Watch carefully which color flashes.</em></p> 
+<p>3️⃣ <strong>E-tap balik ang ni-flash nga color.</strong> 🎯 <em>→ Tap the same color that flashed.</em></p> 
+<p>4️⃣ <strong>Sa sunod nga level, tap tanan colors in correct order.</strong> 🧠🔴🟢🔵🟡 <em>→ On the next level, repeat all previous colors in the right order.</em></p> 
+<p>5️⃣ <strong>Kung masayop ka, e-refresh ang page para sugod balik.</strong> 🔁😅 <em>→ If you make a mistake, refresh the page to start over.</em></p>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./game.js"></script>
+</body>
+
+</html>
